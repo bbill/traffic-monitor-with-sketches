@@ -39,7 +39,7 @@ class SketchesMonitor():
             self.sketch.clear()
 
     def report(self):
-        msg = self.MSG_TPL.format(self.id, self.sketch.heavy_hitters)))
+        msg = self.MSG_TPL.format(self.id, self.sketch.heavy_hitters)
         self.output.info(msg)
 
 
